@@ -1,3 +1,4 @@
-build/*.js
-scripts/*.js
-node_modules/*.js
+node_modules/
+bower_components/
+yarn.lock
+yarn-error.log
