@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel index.html",
+    "dev": "parcel index.html -p 8080",
     "build": "parcel build index.html --public-url /"
   },
   "devDependencies": {
@@ -16,11 +16,12 @@
     "parcel-plugin-vue": "^1.4.0",
     "postcss-modules": "^1.1.0",
     "vue-hot-reload-api": "^2.2.4",
-    "vue-loader": "^13.6.1",
+    "vue-loader": "^13.7.0",
     "vue-style-loader": "^3.0.3",
     "vue-template-compiler": "^2.5.13"
   },
   "dependencies": {
+    "posthtml-img-autosize": "^0.1.1",
     "vue": "^2.5.13",
     "vue-router": "^3.0.1"
   }
